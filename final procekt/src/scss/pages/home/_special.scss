@@ -1,0 +1,206 @@
+#special {
+    margin-bottom: 100px;
+    .special_info {
+        margin-bottom: 25px;
+
+        .lefts {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left {
+                h1 {
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: $main_color;
+                }
+            }
+
+            .right {
+                button {
+                    background: #f5f5f5;
+                    color: $main_color;
+                    padding: 10px 18px;
+                    letter-spacing: 1px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    border: none;
+                    line-height: 20px;
+                    transition: 0.4s ease-in-out;
+
+                    &:hover {
+                        background-color: #ffef97;
+                        ;
+                    }
+                }
+            }
+        }
+
+        .rights {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h1 {
+                font-size: 24px;
+                font-weight: 500;
+                color: $main_color;
+            }
+
+            .btns {
+                text-align: center;
+
+                button {
+                    width: 35px;
+                    height: 35px;
+                    background-color: #ffef97;
+                    border-radius: 100%;
+                    border: none;
+                    transition: 0.4s ease-in-out;
+
+                    i {
+                        font-size: 20px;
+                    }
+
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .special_cards {
+        .card {
+            border: none;
+            overflow: hidden;
+            border-radius: 0;
+            transition: 0.4s ease-in-out;
+            &:hover {
+                .card_image {
+                    .btns {
+                    opacity: 1;
+                    }
+                }
+            }
+            .card_image {
+                position: relative;
+                transition: 0.4s ease-in-out;
+
+                img {
+                    width: 100%;
+                    position: relative;
+                }
+
+                .hover_image {
+                    opacity: 0;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    inset: 0;
+                    transition: 0.4s ease-in-out;
+                }
+
+                &:hover {
+                    .hover_image {
+                        opacity: 1;
+                    }
+                }
+
+                .btns {
+                    opacity: 0;
+                    border-radius: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    i {
+                        background-color: #ffef97;
+                        border-radius: 50%;
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        padding: 10px;
+                        font-size: 20px;
+                        transform: translateX(180deg);
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            color: white;
+                            background-color: black;
+                        }
+                    }
+                    
+                    
+                }
+
+                .icons {
+                    position: absolute;
+                    bottom: 15px;
+                    left: 110px;
+                    display: flex;
+                    gap: 3px;
+
+                    i {
+                        color: #ccc;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .card_info {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+                margin-top: 10px;
+
+                h2 {
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: black;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    del{
+                        color: #666;
+                    }
+                }
+
+                .colors {
+                    display: flex;
+                    justify-content: center;
+                    gap: 6px;
+                    margin-bottom: 10px;
+
+                    div {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        transition: 0.4s;
+                        outline: 1px solid transparent;
+                        outline-offset: 2px;
+
+                        &:hover {
+                            outline-color: black;
+                        }
+                    }
+
+                    .red {
+                        background-color: red;
+                    }
+
+                    .black {
+                        background-color: black;
+                    }
+
+                    .yellow {
+                        background-color: yellow;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+#join{
+    margin-top: 100px;
+    height: 340px; 
+    .info{ 
+        text-align: center;
+        padding: 70px 330px;
+        background-image: url(https://creative-ishi.myshopify.com/cdn/shop/files/3s-ZAuaVKw.png?v=1654145635);
+        h1{
+            color: $main_color;
+            font-size: 40px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            letter-spacing: 0;
+            line-height: 40px;
+        }
+        p{
+            color: #787878;
+            font-size: 14px;
+            line-height: 24px;
+            display: block;
+            letter-spacing: 0;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .btn{
+            background-color: white;
+            margin-left: 70px;
+            border-radius: 0;
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            input {
+                border: none;
+                width: 85%;
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+               padding: 5px 10px;
+               background-color: #ffef97;
+               font-size: 16px;
+               font-weight: 400;
+               border: none;
+               transition: 0.4s ease-in-out;
+               &:hover{
+                background-color: black;
+                color: white;
+               }
+            }
+              
+        }
+    }
+}

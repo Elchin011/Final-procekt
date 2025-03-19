@@ -1,0 +1,225 @@
+#our{
+    margin-bottom: 100px;
+    .our_cards{
+        #carouselExampleAutoplaying{
+            background-color: #ffef97;
+            padding: 25px;
+            h1{
+
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                color: #232323;
+                margin-bottom: 20px;
+                margin-top: 25px;
+            }
+
+            .carousel-item{
+              
+            
+               img{
+                margin-bottom: 15px;
+                padding: 0 135px;
+               }
+               h3{
+                font-size: 14px;
+                font-style: italic;
+                margin-bottom: 5px;
+                text-align: center;
+               }
+               h2{
+                font-size: 17px;
+                font-weight: 600;
+                color: #232323;
+                text-align: center;
+                margin-bottom: 8px;
+               }
+               p{
+                text-align: center;
+               }
+               .btns{
+                margin-bottom: 25px;
+                margin-top: 20px;
+                text-align: center;
+                button{
+                    width: 35px;
+                    height: 35px;
+                    background-color: white;
+                    border-radius: 100%;
+                    border: none;
+                    transition: 0.4s ease-in-out;
+                    i{
+                        font-size: 20px;
+                    }
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                    }
+                }
+               }
+            }
+        }
+        .rights{
+            .left{
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 220px;
+                    object-fit: cover;
+                }
+                .info{
+                    position: absolute;
+                    top: 30px;
+                    left: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        font-weight: 500;
+                        font-size: 24px;
+                        span{
+                            color: #ffdb0f;
+                        }
+                    }
+                    p{
+                        font-size: 24px;
+                        font-weight: 300;
+                    }
+                }
+                .btn{
+                    position: absolute;
+                    bottom: 5px;
+                    left: 1px;
+                    button{
+                        background-color: #ffef97;
+                        border: none;
+                        font-size: 12px;
+                        font-weight: 500;
+                        padding: 8px 12px;
+                        transition: 0.4s ease-in-out;
+                        &:hover{
+                            background-color: $main_color;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .right{
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 220px;
+                    object-fit: cover;
+                }
+                .info{
+                    position: absolute;
+                    top: 30px;
+                    right: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        font-weight: 500;
+                        font-size: 24px;
+                        span{
+                            color: #ffdb0f;
+                        }
+                    }
+                    p{
+                        font-size: 24px;
+                        font-weight: 300;
+                    }
+                }
+                .btn{
+                    position: absolute;
+                    bottom: 5px;
+                    right: 1px;
+                    button{
+                        background-color: #ffef97;
+                        border: none;
+                        font-size: 12px;
+                        font-weight: 500;
+                        padding: 8px 12px;
+                        transition: 0.4s ease-in-out;
+                        &:hover{
+                            background-color: $main_color;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .endz{
+                background-color: #c6eff3;
+                display: flex;
+                .end{
+                    overflow: hidden;
+                    padding: 22px 47px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    transition: 0.5s ease-in-out;
+                    position: relative;
+                    
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        background-color: white;
+                        border-radius: 100%;
+                        margin-bottom: 15px;
+                    }
+                    h3{
+                        font-size: 14px;
+                        font-weight: 500;
+                        text-align: center;
+                        margin-bottom:  9px;
+                    }
+                    h4{
+                        color: #787878;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                    .bckcolor{
+                        opacity: 0;
+                        transform: translateZ(200px);                                  
+                        padding: 22px 47px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        inset: 0;
+                        background-color: black;
+                        position: absolute;
+                        overflow: hidden;
+                        transition: 0.5s ease-in-out;
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            background-color: white;
+                            border-radius: 100%;
+                            margin-bottom: 15px;
+                        }
+                        h3{
+                            font-size: 14px;
+                            font-weight: 500;
+                            text-align: center;
+                            margin-bottom:  9px;
+                            color: #ffdb0f;
+                        }
+                        h4{
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                    }
+                    &:hover{
+                        .bckcolor{
+                           opacity: 1;
+                            transform: translateX(0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
