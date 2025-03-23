@@ -1054,6 +1054,18 @@ a {
   color: white;
 }
 
+#logos {
+  margin-bottom: 70px;
+}
+#logos .logos .logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s ease-in-out;
+}
+#logos .logos .logo img:hover {
+  transform: scale(0.9);
+}
+
 footer {
   background-image: url(https://creative-ishi.myshopify.com/cdn/shop/files/footerbackground1_d2c74648-d02f-431f-a67e-a3e1b96913bc.png?v=1653986541);
   padding: 50px 0;
