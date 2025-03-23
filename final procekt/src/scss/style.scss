@@ -10,6 +10,13 @@
 @import "./pages/home/wooden";
 @import "./pages/home/trending";
 @import "./pages/home/join";
+@import "./pages/home/latest";
+@import "./pages/home/logos";
+@import "./layout/footer";
+@import "./pages/home/modals";
+
+
+@import "./pages/about/banner";
 
 body{
     font-family: $default_font;
