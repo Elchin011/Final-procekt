@@ -1,137 +1,137 @@
-// footer{
-//     background-image: url(https://creative-ishi.myshopify.com/cdn/shop/files/footerbackground1_d2c74648-d02f-431f-a67e-a3e1b96913bc.png?v=1653986541);
-//     padding: 50px 0;
-//     .card{
-//        border-radius: 0;
-//        border: none;
-//        background-image: url(https://creative-ishi.myshopify.com/cdn/shop/files/footerbackground2_aa5f2b4e-4c15-474e-b2b7-4f756bd92085.png?v=1653986555);
-//         .card_body{
-//             padding: 70px 15px;
-//             .firemart{
-//                 p{
-//                     margin: 20px 0;
-//                     font-size: 14px;
-//                     color: #787878;
-//                     line-height: 24px;
-//                 }
-//                 .logos{
-//                     display: flex;
-//                     gap: 10px;
-//                     div{
-//                         display: inline;
-//                         padding: 10px;
-//                         border-radius: 100%;
-//                         transition: 0.4s ease-in-out;
-//                         i{
-//                             font-size: 20px;
-//                             color: white;
-//                         }
-//                         &:hover{
-//                             background-color: #ffef97;
-//                             i{
-//                                 color: black;
-//                             }
-//                         }
-//                     }
-//                     .facebook, .snapchat{
-//                         background-color: #3b5999;
-//                     }
-//                     .instagram{
-//                         background-color: #cc2366;
-//                     }
-//                     .tiktok{
-//                         background-color: $main_color;
-//                     }
-//                     .vimeo{
-//                         background-color: #00aced;
-//                     }
+footer{
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/files/footerbackground1_d2c74648-d02f-431f-a67e-a3e1b96913bc.png?v=1653986541);
+    padding: 50px 0;
+    .card{
+       border-radius: 0;
+       border: none;
+       background-image: url(https://creative-ishi.myshopify.com/cdn/shop/files/footerbackground2_aa5f2b4e-4c15-474e-b2b7-4f756bd92085.png?v=1653986555);
+        .card_body{
+            padding: 70px 15px;
+            .firemart{
+                p{
+                    margin: 20px 0;
+                    font-size: 14px;
+                    color: #787878;
+                    line-height: 24px;
+                }
+                .logos{
+                    display: flex;
+                    gap: 10px;
+                    div{
+                        display: inline;
+                        padding: 10px;
+                        border-radius: 100%;
+                        transition: 0.4s ease-in-out;
+                        i{
+                            font-size: 20px;
+                            color: white;
+                        }
+                        &:hover{
+                            background-color: #ffef97;
+                            i{
+                                color: black;
+                            }
+                        }
+                    }
+                    .facebook, .snapchat{
+                        background-color: #3b5999;
+                    }
+                    .instagram{
+                        background-color: #cc2366;
+                    }
+                    .tiktok{
+                        background-color: $main_color;
+                    }
+                    .vimeo{
+                        background-color: #00aced;
+                    }
                   
-//                 }
+                }
 
-//             }
-//             .account, .company{
-//                 h2{
-//                     font-size: 18px;
-//                     font-weight: 500;
-//                     margin-bottom: 1.5rem;
-//                     letter-spacing: .06rem;
-//                 }
-//                 p{
-//                     font-size: 14px;
-//                     color: #787878;
-//                     margin-bottom: 18px;
-//                 }
-//             }
-//             .information{
-//                 h2{
-//                     font-size: 18px;
-//                     font-weight: 500;
-//                     margin-bottom: 1.5rem;
-//                     letter-spacing: .06rem;
-//                 }
-//                 div{
-//                     display: inline;
-//                     border-radius: 100%;
-//                     .icon{
-//                         background-color: #ffef97;
-//                         padding: 10px;
-//                         transition: 0.4s ease-in-out;
-//                         i{
-//                             font-size: 28px;
-//                         }
-//                         &:hover{
-//                             background-color: black;
-//                             i{
-//                                 color: white;
-//                             }
-//                         }
-//                     }
-//                     p{
-//                         font-size: 14px;
-//                         color: #787878;
-//                         line-height: 24px;
-//                     }
-//                 }
-//                 .map, .number, .gmail{
-//                     display: flex;
-//                     align-items: center;
-//                     gap: 10px;
-//                     margin-bottom: 20px;
-//                 }
-//             }
-//         }
-//         .card_footer{
-//             border-top: 1px solid #e9e9e9;
-//             padding: 15px;
-//             display: flex;
-//             align-items: center;
-//             justify-content: space-between;
-//             .left{
-//                 p{
-//                     font-size: 14px;
-//                     color: #787878;
-//                 }
-//             }
-//             .right{
-//                 .image{
-//                     display: inline-block;
-//                     border: 1px solid #e9e9e9;
-//                     border-radius: 4px;
-//                     transition: 0.3s ease-in-out;
-//                     width: 60px;
-//                     padding: 2px 4px;
-//                     &:hover{
-//                         border: 1px solid black;
-//                     }
-//                     img{
-//                        padding: 3px;
-//                        height: 25px;   
-//                     }
-//                 }
-//                 .active{
-//                     padding: 2px 8px;
-//                 }
-//             }
-//         }
-//     }
-// }
+            }
+            .account, .company{
+                h2{
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 1.5rem;
+                    letter-spacing: .06rem;
+                }
+                p{
+                    font-size: 14px;
+                    color: #787878;
+                    margin-bottom: 18px;
+                }
+            }
+            .information{
+                h2{
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 1.5rem;
+                    letter-spacing: .06rem;
+                }
+                div{
+                    display: inline;
+                    border-radius: 100%;
+                    .icon{
+                        background-color: #ffef97;
+                        padding: 10px;
+                        transition: 0.4s ease-in-out;
+                        i{
+                            font-size: 28px;
+                        }
+                        &:hover{
+                            background-color: black;
+                            i{
+                                color: white;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                        color: #787878;
+                        line-height: 24px;
+                    }
+                }
+                .map, .number, .gmail{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .card_footer{
+            border-top: 1px solid #e9e9e9;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left{
+                p{
+                    font-size: 14px;
+                    color: #787878;
+                }
+            }
+            .right{
+                .image{
+                    display: inline-block;
+                    border: 1px solid #e9e9e9;
+                    border-radius: 4px;
+                    transition: 0.3s ease-in-out;
+                    width: 60px;
+                    padding: 2px 4px;
+                    &:hover{
+                        border: 1px solid black;
+                    }
+                    img{
+                       padding: 3px;
+                       height: 25px;   
+                    }
+                }
+                .active{
+                    padding: 2px 8px;
+                }
+            }
+        }
+    }
+}
