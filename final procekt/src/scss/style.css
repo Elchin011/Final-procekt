@@ -34,7 +34,7 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol {
   list-style: none;
 }
 
@@ -67,6 +67,7 @@ a {
 .hero nav .head-nav .center ul {
   display: flex;
   gap: 20px;
+  list-style: none;
 }
 .hero nav .head-nav .center ul li a {
   font-size: 15px;
@@ -1326,6 +1327,341 @@ footer .card .card_footer .right .active {
 #modals .modal-body .card .right #cardsbtn:hover {
   background-color: black;
   color: white;
+}
+
+#artem {
+  background-color: white;
+  margin-top: -100px;
+  padding: 30px 0;
+}
+#artem .left .newpr {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+#artem .left .newpr .heads {
+  text-align: center;
+  padding: 20px 0;
+  background: #f5f5f5;
+}
+#artem .left .newpr .heads h1 {
+  color: #232323;
+  font-size: 16px;
+  font-weight: 400;
+}
+#artem .left .newpr .cards {
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#artem .left .newpr .cards .card {
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: none;
+}
+#artem .left .newpr .cards .card .left {
+  width: 95px;
+  height: 95px;
+}
+#artem .left .newpr .cards .card .left img {
+  position: relative;
+  width: 95px;
+  height: 95px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+#artem .left .newpr .cards .card .left .hover_image {
+  width: 95px;
+  height: 95px;
+}
+#artem .left .newpr .cards .card .left .hover_image img {
+  position: absolute;
+  opacity: 0;
+  width: 95px;
+  height: 95px;
+  inset: 0;
+  margin: 7px;
+}
+#artem .left .newpr .cards .card .left:hover .hover_image img {
+  opacity: 1;
+}
+#artem .left .newpr .cards .card .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+#artem .left .newpr .cards .card .right h5 {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: capitalize;
+  letter-spacing: 0.6px;
+}
+#artem .left .newpr .cards .card .right .icons {
+  display: flex;
+}
+#artem .left .newpr .cards .card .right .icons i {
+  color: #FEC42D;
+  font-size: 18px;
+}
+#artem .left .newpr .cards .card .right .active i {
+  color: #ccc;
+}
+#artem .left .newpr .cards .card .right p {
+  margin: 0;
+  font-size: 15px;
+}
+#artem .left .newpr .cards .card .right p del {
+  color: #666;
+  margin-right: 5px;
+}
+#artem .left .newpr .footers {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f6f6f6;
+}
+#artem .left .newpr .footers h1 {
+  color: #a7a7a7;
+  font-size: 16px;
+  font-weight: 500;
+}
+#artem .left .chair {
+  position: relative;
+  margin-bottom: 30px;
+}
+#artem .left .chair img {
+  width: 100%;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#artem .left .chair .info {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+#artem .left .chair .info h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(31, 42, 85);
+}
+#artem .left .chair .info h2 {
+  font-size: 24px;
+  color: rgb(116, 38, 38);
+}
+#artem .left .chair button {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  padding: 8px 10px;
+  font-size: 12px;
+  background-color: #ffef97;
+  color: black;
+  border: none;
+  transition: 0.4s ease-in-out;
+}
+#artem .left .chair button:hover {
+  background-color: black;
+  color: white;
+}
+#artem .left .specialpr {
+  border: 1px solid #e5e5e5;
+}
+#artem .left .specialpr .heads {
+  text-align: center;
+  padding: 20px 0;
+  background: #f5f5f5;
+}
+#artem .left .specialpr .heads h1 {
+  color: #232323;
+  font-size: 16px;
+  font-weight: 400;
+}
+#artem .left .specialpr .cards {
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#artem .left .specialpr .cards .card {
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: none;
+}
+#artem .left .specialpr .cards .card .left {
+  width: 95px;
+  height: 95px;
+}
+#artem .left .specialpr .cards .card .left img {
+  position: relative;
+  width: 95px;
+  height: 95px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+#artem .left .specialpr .cards .card .left .hover_image {
+  width: 95px;
+  height: 95px;
+}
+#artem .left .specialpr .cards .card .left .hover_image img {
+  position: absolute;
+  opacity: 0;
+  width: 95px;
+  height: 95px;
+  inset: 0;
+  margin: 7px;
+}
+#artem .left .specialpr .cards .card .left:hover .hover_image img {
+  opacity: 1;
+}
+#artem .left .specialpr .cards .card .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+#artem .left .specialpr .cards .card .right h5 {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: capitalize;
+  letter-spacing: 0.6px;
+}
+#artem .left .specialpr .cards .card .right .icons {
+  display: flex;
+}
+#artem .left .specialpr .cards .card .right .icons i {
+  color: #FEC42D;
+  font-size: 18px;
+}
+#artem .left .specialpr .cards .card .right .active i {
+  color: #ccc;
+}
+#artem .left .specialpr .cards .card .right p {
+  margin: 0;
+  font-size: 15px;
+}
+#artem .left .specialpr .cards .card .right p del {
+  color: #666;
+  margin-right: 5px;
+}
+#artem .left .specialpr .footers {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f6f6f6;
+}
+#artem .left .specialpr .footers h1 {
+  color: #a7a7a7;
+  font-size: 16px;
+  font-weight: 500;
+}
+#artem .right .digital {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#artem .right .digital h2 {
+  font-size: 20px;
+  text-transform: unset;
+  color: #232323;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+#artem .right .digital .ishi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#artem .right .digital .ishi .left, #artem .right .digital .ishi .right {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #787878;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#artem .right .image {
+  margin-top: 15px;
+}
+#artem .right .image img {
+  width: 100%;
+  height: 720px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#artem .right .info {
+  margin-top: 15px;
+}
+#artem .right .info p {
+  line-height: 24px;
+  color: #787878;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+#artem .right .info .unordered, #artem .right .info .ordered {
+  margin-bottom: 14px;
+}
+#artem .right .info .unordered h4, #artem .right .info .ordered h4 {
+  color: #232323;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+#artem .right .info .unordered ul, #artem .right .info .ordered ul {
+  padding-left: 20px;
+}
+#artem .right .info .unordered ul li, #artem .right .info .ordered ul li {
+  text-align: left;
+  line-height: 24px;
+  color: #787878;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+#artem .right .info .unordered .unor-ul, #artem .right .info .ordered .unor-ul {
+  padding-left: 5px;
+}
+#artem .right .info .unordered .unor-ul li, #artem .right .info .ordered .unor-ul li {
+  list-style: none;
+}
+#artem .right .info .paragraph h4 {
+  color: #232323;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+#artem .right .info .paragraph p {
+  font-style: italic;
+  border-left: 3px solid #e5e5e5;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #787878;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  display: block;
 }
 
 body {
