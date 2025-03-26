@@ -42,6 +42,7 @@
                                     letter-spacing: 0.6px;
                                     &:focus{
                                         border: none !important;
+                                        background-color: white;
                                     }
                                 }
                                 .accordion-button.collapsed::after{

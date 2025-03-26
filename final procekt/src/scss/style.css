@@ -1372,6 +1372,7 @@ footer .card .card_footer .right .active {
 }
 #wooden2 .left .shop .body .table .accordion .accordion-item .accordion-header .accordion-button:focus {
   border: none !important;
+  background-color: white;
 }
 #wooden2 .left .shop .body .table .accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
   transform: scale(0.6);
