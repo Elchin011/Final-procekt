@@ -1328,95 +1328,91 @@ footer .card .card_footer .right .active {
   color: white;
 }
 
-#wooden {
+#wooden2 {
   background-color: white;
   padding: 30px 0;
   margin-top: -100px;
   margin-bottom: 0;
 }
-#wooden .left .shop {
+#wooden2 .left .shop {
   border: 1px solid #e9e9e9;
   margin-bottom: 30px;
 }
-#wooden .left .shop .heads {
+#wooden2 .left .shop .heads {
   padding: 15px;
   background-color: #f5f5f5;
 }
-#wooden .left .shop .heads h4 {
+#wooden2 .left .shop .heads h4 {
   color: #232323;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 18px;
 }
-#wooden .left .shop .body {
-  padding: 20px 15px;
+#wooden2 .left .shop .body {
+  padding-top: 15px;
 }
-#wooden .left .shop .body .table {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#wooden2 .left .shop .body .table .accordion .accordion-item {
   margin-bottom: 0;
+  box-shadow: none !important;
+  border: 0 !important;
 }
-#wooden .left .shop .body .table h5 {
+#wooden2 .left .shop .body .table .accordion .accordion-item .accordion-header:focus {
+  background-color: white;
+  outline: none;
+}
+#wooden2 .left .shop .body .table .accordion .accordion-item .accordion-header .accordion-button {
+  padding: 0 7px;
+  box-shadow: none !important;
+  margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
   color: #232323;
   letter-spacing: 0.6px;
 }
-#wooden .left .shop .body .table .d-inline-flex button {
-  background-color: transparent;
-  border: none;
-  padding: 0;
+#wooden2 .left .shop .body .table .accordion .accordion-item .accordion-header .accordion-button:focus {
+  border: none !important;
 }
-#wooden .left .shop .body .table .d-inline-flex button i {
-  padding: 0;
+#wooden2 .left .shop .body .table .accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+  transform: scale(0.6);
 }
-#wooden .left .shop .body .card {
-  padding: 0 15px;
-  border: none;
-  margin-top: 12px;
+#wooden2 .left .shop .body .table .accordion .accordion-item .accordion-body {
+  padding-left: 19px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
-#wooden .left .shop .body .card h5 {
+#wooden2 .left .shop .body .table .accordion .accordion-item .accordion-body h5 {
   font-size: 14px;
-  font-weight: 400;
   color: #232323;
-  letter-spacing: 0.7px;
-  margin-bottom: 10px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
-#wooden .left .shop .body .chair, #wooden .left .shop .body .sofa {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 15px;
-}
-#wooden .left .shop .body .chair h5, #wooden .left .shop .body .sofa h5 {
-  font-size: 14px;
-}
-#wooden .left .filter {
+#wooden2 .left .filter {
   border: 1px solid #e9e9e9;
   margin-bottom: 30px;
 }
-#wooden .left .filter .heads {
+#wooden2 .left .filter .heads {
   padding: 15px;
   background-color: #f5f5f5;
 }
-#wooden .left .filter .heads h4 {
+#wooden2 .left .filter .heads h4 {
   color: #232323;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 18px;
 }
-#wooden .left .filter .body {
+#wooden2 .left .filter .body {
   padding: 20px 0;
 }
-#wooden .left .filter .body .availability {
+#wooden2 .left .filter .body .availability {
   border-bottom: 1px solid #e9e9e9;
   padding: 0 15px;
   padding-bottom: 10px;
 }
-#wooden .left .filter .body .availability h5 {
+#wooden2 .left .filter .body .availability h5 {
   font-size: 14px;
   color: #232323;
   font-weight: 500;
@@ -1424,22 +1420,22 @@ footer .card .card_footer .right .active {
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
-#wooden .left .filter .body .availability .input {
+#wooden2 .left .filter .body .availability .input {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 8px;
 }
-#wooden .left .filter .body .availability .input label {
+#wooden2 .left .filter .body .availability .input label {
   font-size: 14px;
   font-weight: 400;
   color: #787878;
 }
-#wooden .left .filter .body .prince {
+#wooden2 .left .filter .body .prince {
   border-bottom: 1px solid #e9e9e9;
   padding: 15px 15px 10px 15px;
 }
-#wooden .left .filter .body .prince h5 {
+#wooden2 .left .filter .body .prince h5 {
   font-size: 14px;
   color: #232323;
   font-weight: 500;
@@ -1447,20 +1443,20 @@ footer .card .card_footer .right .active {
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
-#wooden .left .filter .body .prince .fromto {
+#wooden2 .left .filter .body .prince .fromto {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-#wooden .left .filter .body .prince .fromto .from, #wooden .left .filter .body .prince .fromto .to {
+#wooden2 .left .filter .body .prince .fromto .from, #wooden2 .left .filter .body .prince .fromto .to {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-#wooden .left .filter .body .prince .fromto .from p, #wooden .left .filter .body .prince .fromto .to p {
+#wooden2 .left .filter .body .prince .fromto .from p, #wooden2 .left .filter .body .prince .fromto .to p {
   font-size: 16px;
 }
-#wooden .left .filter .body .prince .fromto .from input, #wooden .left .filter .body .prince .fromto .to input {
+#wooden2 .left .filter .body .prince .fromto .from input, #wooden2 .left .filter .body .prince .fromto .to input {
   width: 78px;
   height: 45px;
   border: 1px solid #e9e9e9;
@@ -1469,14 +1465,14 @@ footer .card .card_footer .right .active {
   letter-spacing: 0.1rem;
   color: #787878;
 }
-#wooden .left .filter .body .prince .fromto .from input:focus, #wooden .left .filter .body .prince .fromto .to input:focus {
+#wooden2 .left .filter .body .prince .fromto .from input:focus, #wooden2 .left .filter .body .prince .fromto .to input:focus {
   outline: 1px solid #e9e9e9;
 }
-#wooden .left .filter .body .brand {
+#wooden2 .left .filter .body .brand {
   border-bottom: 1px solid #e9e9e9;
   padding: 15px 15px 17px 15px;
 }
-#wooden .left .filter .body .brand h5 {
+#wooden2 .left .filter .body .brand h5 {
   font-size: 14px;
   color: #232323;
   font-weight: 500;
@@ -1484,22 +1480,22 @@ footer .card .card_footer .right .active {
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
-#wooden .left .filter .body .brand .input {
+#wooden2 .left .filter .body .brand .input {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 8px;
 }
-#wooden .left .filter .body .brand .input label {
+#wooden2 .left .filter .body .brand .input label {
   font-size: 14px;
   font-weight: 400;
   color: #787878;
 }
-#wooden .left .filter .body .color {
+#wooden2 .left .filter .body .color {
   border-bottom: 1px solid #e9e9e9;
   padding: 15px 15px 25px 15px;
 }
-#wooden .left .filter .body .color h5 {
+#wooden2 .left .filter .body .color h5 {
   font-size: 14px;
   color: #232323;
   font-weight: 500;
@@ -1507,35 +1503,35 @@ footer .card .card_footer .right .active {
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
-#wooden .left .filter .body .color .colors {
+#wooden2 .left .filter .body .color .colors {
   display: flex;
   gap: 10px;
 }
-#wooden .left .filter .body .color .colors div {
+#wooden2 .left .filter .body .color .colors div {
   width: 35px;
   height: 35px;
   border-radius: 50%;
   box-shadow: 2px 4px 4px #e0e0e0;
 }
-#wooden .left .filter .body .color .colors .gray {
+#wooden2 .left .filter .body .color .colors .gray {
   background-color: #303030;
 }
-#wooden .left .filter .body .color .colors .blue {
+#wooden2 .left .filter .body .color .colors .blue {
   background-color: #5555ff;
 }
-#wooden .left .filter .body .color .colors .red {
+#wooden2 .left .filter .body .color .colors .red {
   background-color: #ff6c6c;
 }
-#wooden .left .filter .body .color .colors .green {
+#wooden2 .left .filter .body .color .colors .green {
   background-color: #00a800;
 }
-#wooden .left .filter .body .color .colors .yellow {
+#wooden2 .left .filter .body .color .colors .yellow {
   background-color: #ffff66;
 }
-#wooden .left .filter .body .size {
+#wooden2 .left .filter .body .size {
   padding: 15px 15px 10px 15px;
 }
-#wooden .left .filter .body .size h5 {
+#wooden2 .left .filter .body .size h5 {
   font-size: 14px;
   color: #232323;
   font-weight: 500;
@@ -1543,54 +1539,54 @@ footer .card .card_footer .right .active {
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
-#wooden .left .filter .body .size .sml {
+#wooden2 .left .filter .body .size .sml {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-#wooden .left .filter .body .size .sml button {
+#wooden2 .left .filter .body .size .sml button {
   width: 40px;
   height: 40px;
   border: 0.1rem solid #eee;
   background-color: white;
   transition: 0.4s ease-in-out;
 }
-#wooden .left .filter .body .size .sml button:hover {
+#wooden2 .left .filter .body .size .sml button:hover {
   background-color: black;
   color: white;
 }
-#wooden .left .newpr {
+#wooden2 .left .newpr {
   border: 1px solid #e5e5e5;
   margin-bottom: 30px;
 }
-#wooden .left .newpr .heads {
+#wooden2 .left .newpr .heads {
   text-align: center;
   padding: 20px 0;
   background: #f5f5f5;
 }
-#wooden .left .newpr .heads h1 {
+#wooden2 .left .newpr .heads h1 {
   color: #232323;
   font-size: 16px;
   font-weight: 400;
 }
-#wooden .left .newpr .cards {
+#wooden2 .left .newpr .cards {
   padding: 7px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-#wooden .left .newpr .cards .card {
+#wooden2 .left .newpr .cards .card {
   padding: 7px;
   display: flex;
   flex-direction: row;
   gap: 10px;
   border: none;
 }
-#wooden .left .newpr .cards .card .left {
+#wooden2 .left .newpr .cards .card .left {
   width: 95px;
   height: 95px;
 }
-#wooden .left .newpr .cards .card .left img {
+#wooden2 .left .newpr .cards .card .left img {
   position: relative;
   width: 95px;
   height: 95px;
@@ -1600,11 +1596,11 @@ footer .card .card_footer .right .active {
   overflow: hidden;
   transition: 0.4s ease-in-out;
 }
-#wooden .left .newpr .cards .card .left .hover_image {
+#wooden2 .left .newpr .cards .card .left .hover_image {
   width: 95px;
   height: 95px;
 }
-#wooden .left .newpr .cards .card .left .hover_image img {
+#wooden2 .left .newpr .cards .card .left .hover_image img {
   position: absolute;
   opacity: 0;
   width: 95px;
@@ -1612,16 +1608,16 @@ footer .card .card_footer .right .active {
   inset: 0;
   margin: 7px;
 }
-#wooden .left .newpr .cards .card .left:hover .hover_image img {
+#wooden2 .left .newpr .cards .card .left:hover .hover_image img {
   opacity: 1;
 }
-#wooden .left .newpr .cards .card .right {
+#wooden2 .left .newpr .cards .card .right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
-#wooden .left .newpr .cards .card .right h5 {
+#wooden2 .left .newpr .cards .card .right h5 {
   color: #232323;
   font-size: 14px;
   font-weight: 400;
@@ -1629,45 +1625,45 @@ footer .card .card_footer .right .active {
   text-transform: capitalize;
   letter-spacing: 0.6px;
 }
-#wooden .left .newpr .cards .card .right .icons {
+#wooden2 .left .newpr .cards .card .right .icons {
   display: flex;
 }
-#wooden .left .newpr .cards .card .right .icons i {
+#wooden2 .left .newpr .cards .card .right .icons i {
   color: #FEC42D;
   font-size: 18px;
 }
-#wooden .left .newpr .cards .card .right .active i {
+#wooden2 .left .newpr .cards .card .right .active i {
   color: #ccc;
 }
-#wooden .left .newpr .cards .card .right p {
+#wooden2 .left .newpr .cards .card .right p {
   margin: 0;
   font-size: 15px;
 }
-#wooden .left .newpr .cards .card .right p del {
+#wooden2 .left .newpr .cards .card .right p del {
   color: #666;
   margin-right: 5px;
 }
-#wooden .left .newpr .footers {
+#wooden2 .left .newpr .footers {
   text-align: center;
   padding: 20px 0;
   background-color: #f6f6f6;
 }
-#wooden .left .newpr .footers h1 {
+#wooden2 .left .newpr .footers h1 {
   color: #a7a7a7;
   font-size: 16px;
   font-weight: 500;
 }
-#wooden .left .chair {
+#wooden2 .left .chair {
   position: relative;
   margin-bottom: 30px;
 }
-#wooden .left .chair img {
+#wooden2 .left .chair img {
   width: 100%;
   height: 380px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#wooden .left .chair .info {
+#wooden2 .left .chair .info {
   position: absolute;
   top: 30px;
   left: 70px;
@@ -1676,16 +1672,16 @@ footer .card .card_footer .right .active {
   gap: 8px;
   text-align: center;
 }
-#wooden .left .chair .info h4 {
+#wooden2 .left .chair .info h4 {
   font-size: 16px;
   font-weight: 500;
   color: rgb(31, 42, 85);
 }
-#wooden .left .chair .info h2 {
+#wooden2 .left .chair .info h2 {
   font-size: 24px;
   color: rgb(116, 38, 38);
 }
-#wooden .left .chair button {
+#wooden2 .left .chair button {
   position: absolute;
   bottom: 15px;
   right: 20px;
@@ -1696,41 +1692,41 @@ footer .card .card_footer .right .active {
   border: none;
   transition: 0.4s ease-in-out;
 }
-#wooden .left .chair button:hover {
+#wooden2 .left .chair button:hover {
   background-color: black;
   color: white;
 }
-#wooden .left .specialpr {
+#wooden2 .left .specialpr {
   border: 1px solid #e5e5e5;
 }
-#wooden .left .specialpr .heads {
+#wooden2 .left .specialpr .heads {
   text-align: center;
   padding: 20px 0;
   background: #f5f5f5;
 }
-#wooden .left .specialpr .heads h1 {
+#wooden2 .left .specialpr .heads h1 {
   color: #232323;
   font-size: 16px;
   font-weight: 400;
 }
-#wooden .left .specialpr .cards {
+#wooden2 .left .specialpr .cards {
   padding: 7px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-#wooden .left .specialpr .cards .card {
+#wooden2 .left .specialpr .cards .card {
   padding: 7px;
   display: flex;
   flex-direction: row;
   gap: 10px;
   border: none;
 }
-#wooden .left .specialpr .cards .card .left {
+#wooden2 .left .specialpr .cards .card .left {
   width: 95px;
   height: 95px;
 }
-#wooden .left .specialpr .cards .card .left img {
+#wooden2 .left .specialpr .cards .card .left img {
   position: relative;
   width: 95px;
   height: 95px;
@@ -1740,11 +1736,11 @@ footer .card .card_footer .right .active {
   overflow: hidden;
   transition: 0.4s ease-in-out;
 }
-#wooden .left .specialpr .cards .card .left .hover_image {
+#wooden2 .left .specialpr .cards .card .left .hover_image {
   width: 95px;
   height: 95px;
 }
-#wooden .left .specialpr .cards .card .left .hover_image img {
+#wooden2 .left .specialpr .cards .card .left .hover_image img {
   position: absolute;
   opacity: 0;
   width: 95px;
@@ -1752,16 +1748,16 @@ footer .card .card_footer .right .active {
   inset: 0;
   margin: 7px;
 }
-#wooden .left .specialpr .cards .card .left:hover .hover_image img {
+#wooden2 .left .specialpr .cards .card .left:hover .hover_image img {
   opacity: 1;
 }
-#wooden .left .specialpr .cards .card .right {
+#wooden2 .left .specialpr .cards .card .right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
-#wooden .left .specialpr .cards .card .right h5 {
+#wooden2 .left .specialpr .cards .card .right h5 {
   color: #232323;
   font-size: 14px;
   font-weight: 400;
@@ -1769,42 +1765,42 @@ footer .card .card_footer .right .active {
   text-transform: capitalize;
   letter-spacing: 0.6px;
 }
-#wooden .left .specialpr .cards .card .right .icons {
+#wooden2 .left .specialpr .cards .card .right .icons {
   display: flex;
 }
-#wooden .left .specialpr .cards .card .right .icons i {
+#wooden2 .left .specialpr .cards .card .right .icons i {
   color: #FEC42D;
   font-size: 18px;
 }
-#wooden .left .specialpr .cards .card .right .active i {
+#wooden2 .left .specialpr .cards .card .right .active i {
   color: #ccc;
 }
-#wooden .left .specialpr .cards .card .right p {
+#wooden2 .left .specialpr .cards .card .right p {
   margin: 0;
   font-size: 15px;
 }
-#wooden .left .specialpr .cards .card .right p del {
+#wooden2 .left .specialpr .cards .card .right p del {
   color: #666;
   margin-right: 5px;
 }
-#wooden .left .specialpr .footers {
+#wooden2 .left .specialpr .footers {
   text-align: center;
   padding: 20px 0;
   background-color: #f6f6f6;
 }
-#wooden .left .specialpr .footers h1 {
+#wooden2 .left .specialpr .footers h1 {
   color: #a7a7a7;
   font-size: 16px;
   font-weight: 500;
 }
-#wooden .right h2 {
+#wooden2 .right h2 {
   font-size: 24px;
   color: #232323;
   margin-bottom: 10px;
   font-weight: 500;
   line-height: 26px;
 }
-#wooden .right p {
+#wooden2 .right p {
   margin-bottom: 20px;
   font-size: 14px;
   font-weight: 400;
@@ -1812,16 +1808,16 @@ footer .card .card_footer .right .active {
   letter-spacing: 0.5px;
   line-height: 24px;
 }
-#wooden .right .image {
+#wooden2 .right .image {
   position: relative;
 }
-#wooden .right .image img {
+#wooden2 .right .image img {
   width: 100%;
   height: 185px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#wooden .right .image .info {
+#wooden2 .right .image .info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1830,17 +1826,17 @@ footer .card .card_footer .right .active {
   top: 50px;
   margin: 0 340px;
 }
-#wooden .right .image .info h3, #wooden .right .image .info h5 {
+#wooden2 .right .image .info h3, #wooden2 .right .image .info h5 {
   color: #787878;
   font-size: 18px;
   font-weight: 400;
 }
-#wooden .right .image .info h1 {
+#wooden2 .right .image .info h1 {
   letter-spacing: 0.08rem;
   font-size: 32px;
   font-weight: 500;
 }
-#wooden .right .showing {
+#wooden2 .right .showing {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1848,16 +1844,16 @@ footer .card .card_footer .right .active {
   background: #f5f5f5;
   margin: 30px 0;
 }
-#wooden .right .showing p {
+#wooden2 .right .showing p {
   margin-bottom: 0;
   color: #232323;
 }
-#wooden .right .showing .right {
+#wooden2 .right .showing .right {
   display: flex;
   align-items: baseline;
   gap: 20px;
 }
-#wooden .right .showing .right #alphabetically {
+#wooden2 .right .showing .right #alphabetically {
   font-size: 14px;
   font-weight: 400;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1865,31 +1861,31 @@ footer .card .card_footer .right .active {
   width: 290px;
   padding: 10px;
 }
-#wooden .right .showing .right #alphabetically:focus {
+#wooden2 .right .showing .right #alphabetically:focus {
   outline: none;
 }
-#wooden .right .agreeable_cards {
+#wooden2 .right .agreeable_cards {
   margin-bottom: 30px;
 }
-#wooden .right .agreeable_cards .card {
+#wooden2 .right .agreeable_cards .card {
   width: 310px;
   border: none;
   overflow: hidden;
   border-radius: 0;
   transition: 0.4s ease-in-out;
 }
-#wooden .right .agreeable_cards .card:hover .card_image .btns {
+#wooden2 .right .agreeable_cards .card:hover .card_image .btns {
   opacity: 1;
 }
-#wooden .right .agreeable_cards .card .card_image {
+#wooden2 .right .agreeable_cards .card .card_image {
   position: relative;
   transition: 0.4s ease-in-out;
 }
-#wooden .right .agreeable_cards .card .card_image img {
+#wooden2 .right .agreeable_cards .card .card_image img {
   width: 100%;
   position: relative;
 }
-#wooden .right .agreeable_cards .card .card_image .hover_image {
+#wooden2 .right .agreeable_cards .card .card_image .hover_image {
   opacity: 0;
   position: absolute;
   width: 100%;
@@ -1897,10 +1893,10 @@ footer .card .card_footer .right .active {
   inset: 0;
   transition: 0.4s ease-in-out;
 }
-#wooden .right .agreeable_cards .card .card_image:hover .hover_image {
+#wooden2 .right .agreeable_cards .card .card_image:hover .hover_image {
   opacity: 1;
 }
-#wooden .right .agreeable_cards .card .card_image .btns {
+#wooden2 .right .agreeable_cards .card .card_image .btns {
   opacity: 0;
   border-radius: 50%;
   display: flex;
@@ -1910,12 +1906,12 @@ footer .card .card_footer .right .active {
   right: 10px;
   top: 10px;
 }
-#wooden .right .agreeable_cards .card .card_image .btns button {
+#wooden2 .right .agreeable_cards .card .card_image .btns button {
   border: none;
   background-color: transparent;
   margin-bottom: 8px;
 }
-#wooden .right .agreeable_cards .card .card_image .btns button i {
+#wooden2 .right .agreeable_cards .card .card_image .btns button i {
   background-color: #ffef97;
   border-radius: 50%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -1925,11 +1921,11 @@ footer .card .card_footer .right .active {
   transition: 0.3s ease-in-out;
   color: black;
 }
-#wooden .right .agreeable_cards .card .card_image .btns button i:hover {
+#wooden2 .right .agreeable_cards .card .card_image .btns button i:hover {
   color: white;
   background-color: black;
 }
-#wooden .right .agreeable_cards .card .card_image .sale {
+#wooden2 .right .agreeable_cards .card .card_image .sale {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1943,35 +1939,35 @@ footer .card .card_footer .right .active {
   border-radius: 100%;
   border: none;
 }
-#wooden .right .agreeable_cards .card .card_info {
+#wooden2 .right .agreeable_cards .card .card_info {
   display: flex;
   flex-direction: column;
   gap: 5px;
   text-align: center;
   margin-top: 10px;
 }
-#wooden .right .agreeable_cards .card .card_info h2 {
+#wooden2 .right .agreeable_cards .card .card_info h2 {
   font-weight: 400;
   font-size: 15px;
   color: #232323;
   margin-bottom: 0;
 }
-#wooden .right .agreeable_cards .card .card_info p {
+#wooden2 .right .agreeable_cards .card .card_info p {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 0;
   color: #232323;
 }
-#wooden .right .agreeable_cards .card .card_info p del {
+#wooden2 .right .agreeable_cards .card .card_info p del {
   color: #666;
 }
-#wooden .right .agreeable_cards .card .card_info .colors {
+#wooden2 .right .agreeable_cards .card .card_info .colors {
   display: flex;
   justify-content: center;
   gap: 6px;
   margin-bottom: 10px;
 }
-#wooden .right .agreeable_cards .card .card_info .colors div {
+#wooden2 .right .agreeable_cards .card .card_info .colors div {
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -1979,19 +1975,19 @@ footer .card .card_footer .right .active {
   outline: 1px solid transparent;
   outline-offset: 2px;
 }
-#wooden .right .agreeable_cards .card .card_info .colors div:hover {
+#wooden2 .right .agreeable_cards .card .card_info .colors div:hover {
   outline-color: black;
 }
-#wooden .right .agreeable_cards .card .card_info .colors .red {
+#wooden2 .right .agreeable_cards .card .card_info .colors .red {
   background-color: red;
 }
-#wooden .right .agreeable_cards .card .card_info .colors .blue {
+#wooden2 .right .agreeable_cards .card .card_info .colors .blue {
   background-color: blue;
 }
-#wooden .right .agreeable_cards .card .card_info .colors .black {
+#wooden2 .right .agreeable_cards .card .card_info .colors .black {
   background-color: black;
 }
-#wooden .right .showing2 {
+#wooden2 .right .showing2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1999,28 +1995,28 @@ footer .card .card_footer .right .active {
   background: #f5f5f5;
   margin-top: 60px;
 }
-#wooden .right .showing2 p {
+#wooden2 .right .showing2 p {
   margin-bottom: 0;
   color: #232323;
 }
-#wooden .right .showing2 .right {
+#wooden2 .right .showing2 .right {
   display: flex;
   align-items: baseline;
   gap: 20px;
 }
-#wooden .right .showing2 .right .sml {
+#wooden2 .right .showing2 .right .sml {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-#wooden .right .showing2 .right .sml button {
+#wooden2 .right .showing2 .right .sml button {
   width: 40px;
   height: 40px;
   border: 0.1rem solid #eee;
   background-color: white;
   transition: 0.4s ease-in-out;
 }
-#wooden .right .showing2 .right .sml button:hover {
+#wooden2 .right .showing2 .right .sml button:hover {
   background-color: black;
   color: white;
 }
