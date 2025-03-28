@@ -1,0 +1,14 @@
+#logos{
+    margin-bottom: 70px;
+    .logos{
+        .logo{
+            img{
+                object-fit: cover;
+                transition: 0.4s ease-in-out;
+                &:hover{
+                    transform: scale(0.9);
+                }
+            }
+        }
+    }
+}
