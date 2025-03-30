@@ -165,10 +165,12 @@ a {
 #top .top_card .rights .right img {
   width: 60px;
   height: 60px;
+  margin: 0 20px;
 }
 #top .top_card .rights .right h3 {
   font-size: 15px;
   color: #555;
+  text-align: center;
 }
 
 #our {
@@ -195,6 +197,7 @@ a {
   font-style: italic;
   margin-bottom: 5px;
   text-align: center;
+  font-weight: 400;
 }
 #our .our_cards #carouselExampleAutoplaying .carousel-item h2 {
   font-size: 17px;
@@ -205,13 +208,17 @@ a {
 }
 #our .our_cards #carouselExampleAutoplaying .carousel-item p {
   text-align: center;
+  color: #787878;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }
-#our .our_cards #carouselExampleAutoplaying .carousel-item .btns {
+#our .our_cards #carouselExampleAutoplaying .btns {
   margin-bottom: 25px;
   margin-top: 20px;
   text-align: center;
 }
-#our .our_cards #carouselExampleAutoplaying .carousel-item .btns button {
+#our .our_cards #carouselExampleAutoplaying .btns button {
   width: 35px;
   height: 35px;
   background-color: white;
@@ -219,10 +226,10 @@ a {
   border: none;
   transition: 0.4s ease-in-out;
 }
-#our .our_cards #carouselExampleAutoplaying .carousel-item .btns button i {
+#our .our_cards #carouselExampleAutoplaying .btns button i {
   font-size: 20px;
 }
-#our .our_cards #carouselExampleAutoplaying .carousel-item .btns button:hover {
+#our .our_cards #carouselExampleAutoplaying .btns button:hover {
   background-color: black;
   color: white;
 }
