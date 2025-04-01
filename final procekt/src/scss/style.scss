@@ -13,10 +13,17 @@
 @import "./pages/home/latest";
 @import "./pages/home/logos";
 @import "./layout/footer";
+<<<<<<< HEAD
 @import "./pages/home/modal";
 
 
 @import "./pages/wooden/wooden";
+=======
+@import "./pages/home/modals";
+
+
+@import "./pages/about/wooden2";
+>>>>>>> about-page
 
 body{
     font-family: $default_font;
